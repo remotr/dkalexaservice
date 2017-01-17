@@ -1,37 +1,19 @@
 {
-  "name": "alexa-app-server",
-  "version": "2.3.1",
-  "description": "A web server module for Alexa (Amazon Echo) apps (skills) using Node.js, Express, and alexa-app.",
+  "name": "dkalexaservice",
+  "version": "0.0.1",
   "main": "index.js",
-  "author": "Matt Kruse",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alexa-js/alexa-app-server.git"
-  },
-  "bugs": {
-    "url": "https://github.com/alexa-js/alexa-app-server/issues"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha",
-    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec"
-  },
-  "license": "MIT",
   "dependencies": {
-    "alexa-app": "^2.4.0",
-    "alexa-verifier": "0.0.5",
-    "bluebird": "^2.9.34",
-    "body-parser": "~1.0.1",
-    "ejs": "~0.7.1",
-    "express": "~4.0.0",
-    "hotswap": "^1.1.0"
-  },
-  "devDependencies": {
-    "supervisor": "^0.6.0",
-    "mocha": "^2.3.4",
-    "chai": "^3.4.1",
-    "supertest": "^2.0.1",
-    "supertest-as-promised": "^4.0.2",
-    "istanbul": "0.4.5",
-    "coveralls": "^2.11.15"
-  }
+     "alexa-app": "2.2.x",
+     "ejs": "^2.3.1",
+     "body-parser": "^1.13.1",
+     "express": "^4.13.0",
+     "deasync": "*",
+     "readline-sync": "*",
+     "request": "*",
+     "xml2js": "*"
+   },
+  "engines": {
+   "node": "0.10.x",
+   "npm": "1.2.x"
+   }
 }
